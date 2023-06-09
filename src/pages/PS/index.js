@@ -1,8 +1,8 @@
 import { React } from 'react';
 import { Link } from "react-router-dom";
 
-import chute from '../../imgs/videoChute.mp4' //imagem de fundo
-import AureaWorldCup from '../../imgs/AureaWorldCup.png'
+import BackGround51 from '../../imgs/BackGround51.png' //imagem de fundo
+import AureaWorldCup from '../../imgs/Aurea51.png'
 //import PSPhases from '../../imgs/AureaWorldCupTabela.png'
 import ArrowDown from '../../imgs/arrow.svg'
 import Campo from '../../imgs/campo.jpg'
@@ -22,7 +22,8 @@ function PS() {
 
                 <div className="heroWrapperPS">
 
-                    <video autoplay="true" loop muted src={chute} className="backgroundPS"/>
+                    
+                    <img className="BackGround51" draggable="false" src={BackGround51} alt=""/>
 
                     <div className="logoPSWrapper">
 
@@ -32,8 +33,8 @@ function PS() {
 
                     <div className="textHome">
                     
-                        <h1>Venha fazer parte da seleção Aureana!</h1>
-                        <h4>Processo seletivo 2022.2</h4>
+                        <h1>Área 51? Venha ver o que tem na Aurea</h1>
+                        <h4>Processo seletivo 2023.1</h4>
                     
                         <a href="#PSInfosSection"><img src={ArrowDown} alt="Ver informações" /></a>
 
@@ -55,7 +56,7 @@ function PS() {
 
                     <h1>Sua hora de entrar em campo chegou!</h1>
 
-                    <p><strong>Now is All</strong>, quando os pulsos aceleram e todas as emoções e experiências que levaram ao agora se conectam! Chegou o momento de preparar o seu time e entrar em campo! Está aberto o PROCESSO SELETIVO 2022.2 da Aurea Soluções e Projetos, <strong>Aurea World Cup</strong>. Venha fazer parte da <strong>Seleção Aureana!</strong> Juntos somos um só.</p>
+                    <p><strong>Now is All</strong>, quando os pulsos aceleram e todas as emoções e experiências que levaram ao agora se conectam! Chegou o momento de preparar o seu time e entrar em campo! Está aberto o PROCESSO SELETIVO 2023.1 da Aurea Soluções e Projetos, <strong>Aurea World Cup</strong>. Venha fazer parte da <strong>Seleção Aureana!</strong> Juntos somos um só.</p>
 
                     <p>A Aurea é uma empresa júnior do Instituto Federal Fluminense - campus Campos Centro. Fundada no ano de 2016, iniciamos nossos primeiros passos como empresa referência da região Norte Fluminense. Oferecendo serviços na área de <strong>Arquitetura e Urbanismo, Engenharia de Computação, Engenharia de Controle e Automação e Engenharia Elétrica</strong>, passamos a amadurecer como empresa, e alcançamos a tão sonhada federação no ano de 2018, sendo reconhecida pelo Movimento Empresa Júnior (MEJ) como uma Empresa Júnior. Nossa excelência, esforço e dedicação em projetos nos retornou diversas premiações, reconhecendo a Aurea como uma empresa "Bi impacto", o que significa que fomos capazes de bater todas nossas metas anuais por dois anos consecutivos. Atualmente, estamos em busca do tão sonhado "Tri-impacto".</p>
 
@@ -86,7 +87,7 @@ function PS() {
                                 <a
                                     target="_blank"
                                     href="https://forms.gle/zgdoSnofaPNxKNjUA" rel="noreferrer"> Formulário de inscrição
-                                </a> do Processo Seletivo 2022.2. Lembre-se de ler o
+                                </a> do Processo Seletivo 2023.1. Lembre-se de ler o
 
                                 <a
                                     target="_blank"
